@@ -1,0 +1,102 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body>div{
+  width: 60%;
+  margin: 0px auto;
+  margin-top: 20px;
+  box-shadow: 0px 5px 30px 3px;
+  margin-bottom: 20px;
+  border-radius: 0px 12px 0px 0px;
+}
+
+
+/*En-tête*/
+
+header{
+  background-color: red;
+  height: 50px;
+  padding: 3px;
+  border-radius: 0px 12px 0px 0px;
+  
+}
+
+/*Navigation*/
+nav p{
+  color: red
+}
+
+.liste{
+  text-decoration: underline 10px red;
+  font-weight: bold;
+}
+
+
+
+nav>article{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 380px;
+  padding: 20px;
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  gap: 180px;
+}
+
+section p{
+  color: red;
+  padding-left: 90px;
+
+}
+
+/*Tableau*/
+
+table{
+  border-collapse: collapse;
+  min-height: 100vh;
+  width: 90%;
+  margin: 40px auto;
+  border: 1px solid black;
+}
+
+thead tr{
+  background-color: red;
+  border: 1px solid;
+  min-height: 300px;
+}
+
+th>p{
+  color: white;
+}
+
+thead th{
+  border: 1px solid;
+  height: 20px;
+}
+
+tbody tr, td{
+  border: 1px solid;
+  height: 20px;
+}
+
+/*footer*/
+
+footer{
+  text-align: center;
+  padding: 10px;
+}
+
